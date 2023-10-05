@@ -27,20 +27,25 @@ btn_cerrar_envio.addEventListener("click", close_envio);
 
 function sudaderaBlanca_f() {
   overlay1.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 function sudaderaAzul_f() {
   overlay2.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 function polarNegro_f() {
   overlay3.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
 function polarVerde_f() {
   overlay4.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
 function open_envio() {
   modal_envio.style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
 function close_overlay() {
@@ -48,12 +53,15 @@ function close_overlay() {
   overlay2.style.display = "none";
   overlay3.style.display = "none";
   overlay4.style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
 function close_votaciones() {
   overlay_votaciones.style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
 function close_envio() {
   modal_envio.style.display = "none";
+  document.body.style.overflow = "auto";
 }

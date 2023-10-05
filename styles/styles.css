@@ -8,6 +8,7 @@ body {
   text-align: center;
   color: #e3e2d5 !important;
   font-family: "Playfair Display", serif !important;
+  overflow: hidden;
 }
 
 h1 {
