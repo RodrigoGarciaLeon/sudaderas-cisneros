@@ -4,9 +4,11 @@
     <!--Inicio de mis scripts -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/overlay.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/overlay.css" />
     <script src="/scripts/carousel.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,6 +38,7 @@
     <p>
       Llegan las sudaderas y polares del colegio 23-24. Este año más calidad por el mismo precio.
     </p>
+    <h3>👉🏼 <a href="#precios">Precios</a> 👈🏼</h3>
     <!-- Inicio del carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -124,11 +127,26 @@
       <li><img src="images/polar-verde.png" alt="polar-verde" id="polar-verde" /></li>
     </ul>
     <p style="font-size: 1rem; margin-bottom: 2rem">☝🏼Pulsa los iconos☝🏼</p>
-    <h3 style="margin-bottom: 2rem">¿Qué incluyen?</h3>
+    <div class="separator"></div>
+
+    <h2 style="margin-bottom: 2rem">~ ¿Qué incluyen? ~</h2>
     <section id="features">
       <ul id="features">
         <li class="feature">
-          <ion-icon name="leaf"></ion-icon>
+          <svg
+            width="54"
+            height="64"
+            viewBox="0 0 54 64"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6316 0C11.5356 0 7.80641 0.997242 4.95148 2.77778C2.09655 4.55831 0 7.30466 0 10.5556V46.3333C0 49.5842 2.09655 52.3306 4.95148 54.1111C7.80641 55.8916 11.5356 56.8889 15.6316 56.8889C19.7275 56.8889 23.4567 55.8916 26.3117 54.1111C27.8698 53.1393 29.1975 51.8722 30.0863 50.4C30.2561 50.2929 30.4599 50.2111 30.6859 50.1333C31.2975 55.532 34.2819 59.2496 38.0798 61.2667C42.3442 63.5315 47.435 64 51.8684 64C52.4337 63.9999 52.9759 63.7752 53.3756 63.3751C53.7753 62.975 53.9999 62.4324 54 61.8667V25.6C53.9999 25.0342 53.7753 24.4916 53.3756 24.0916C52.9759 23.6915 52.4337 23.4667 51.8684 23.4667C48.5417 23.4667 45.5576 22.8075 43.3421 21.8V17.0444C43.3421 11.6141 38.6053 7.82222 33.3947 7.82222C32.655 7.82222 31.7543 7.82287 30.7969 8C30.0338 5.87081 28.3806 4.0681 26.3117 2.77778C23.4567 0.997242 19.7275 0 15.6316 0ZM15.6316 4.26667C19.0146 4.26667 22.0438 5.13687 24.0691 6.4C26.0944 7.66313 27 9.14202 27 10.5556V39.4889C26.579 39.1944 26.1491 38.9209 25.69 38.6667C22.9167 37.1313 19.4278 36.2667 15.6316 36.2667C11.8354 36.2667 8.34646 37.1313 5.57319 38.6667C5.11402 38.9209 4.68418 39.1944 4.26316 39.4889V10.5556C4.26316 9.14202 5.16876 7.66313 7.19408 6.4C9.2194 5.13687 12.2485 4.26667 15.6316 4.26667ZM32.44 12.0889C32.7213 12.0795 33.0365 12.0889 33.3947 12.0889C36.7105 12.0889 39.0789 14.0012 39.0789 17.0444V47.1111C37.4311 46.0824 35.4449 45.5111 33.3947 45.5111C32.7395 45.5111 32.0131 45.5314 31.2632 45.6222V12.2444C31.6125 12.1426 31.9813 12.1042 32.44 12.0889ZM43.3421 26.3778C45.2727 27.0376 47.4348 27.4556 49.7368 27.6222V59.5556C47.5522 59.4489 45.3438 59.1993 43.3421 58.6889V26.3778ZM15.6316 40.5333C18.7697 40.5333 21.6048 41.2816 23.625 42.4C25.6452 43.5184 26.7382 44.9311 26.9778 46.2C26.9842 46.2372 26.9916 46.2743 27 46.3111V46.3333C27 47.7469 26.0944 49.2258 24.0691 50.4889C22.0438 51.752 19.0146 52.6222 15.6316 52.6222C12.2485 52.6222 9.2194 51.752 7.19408 50.4889C5.16876 49.2258 4.26316 47.7469 4.26316 46.3333V46.2889C4.27119 46.2594 4.2786 46.2298 4.28536 46.2C4.52492 44.9311 5.618 43.5184 7.63816 42.4C9.65831 41.2816 12.4934 40.5333 15.6316 40.5333ZM15.6316 43.3778C11.315 43.3778 7.81579 44.8105 7.81579 46.5778C7.81579 48.3451 11.315 49.7778 15.6316 49.7778C19.9481 49.7778 23.4474 48.3451 23.4474 46.5778C23.4474 44.8105 19.9481 43.3778 15.6316 43.3778ZM34.9046 49.9333C37.1516 50.3938 38.7277 51.888 39.0345 53.9778C39.0461 54.0451 39.061 54.1119 39.0789 54.1778V56.9111C36.829 55.4636 35.2936 53.4308 34.9046 49.9333Z"
+              fill="#E3E2D5"
+            />
+          </svg>
+
+          <!-- <ion-icon name="leaf"></ion-icon> -->
           <p>100% algodón</p>
         </li>
         <li class="feature">
@@ -138,9 +156,35 @@
         <li class="feature">
           <img src="/images/bordado-chenille.png" style="width: 20%; margin-bottom: 0.8rem" />
           <p>Bordado Chenille</p>
+          <p style="font-size: 1rem; margin: 0; font-style: italic">
+            *Parte trasera de las sudaderas
+          </p>
+        </li>
+      </ul>
+      <div class="separator"></div>
+      <h2 style="margin-bottom: 2rem" id="precios">~ Precios ~</h2>
+      <ul>
+        <li class="price">
+          <h2>Sudadera</h2>
+          <h3>35€</h3>
+        </li>
+        <li class="price">
+          <h2>Polar</h2>
+          <h3>35€</h3>
+        </li>
+        <li class="price" id="economic">
+          <h2>Pack</h2>
+          <p>Sudadera + polar</p>
+          <h3>60€</h3>
+          <p style="color: #ffffff; font-size: 1rem; font-style: italic">*Más económico</p>
         </li>
       </ul>
     </section>
+    <p style="color: #ffffff; font-size: 1.2rem; font-style: italic">
+      Para reservar y pagar tu sudadera, ve a la habitación 112 o escribe a este número de Whatsapp
+      +34 628 38 77 31
+    </p>
+    <footer>Made with 🇮🇨 by <a href="https://www.rodrigarcialeon.com/">Rodri</a></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   padding: 0 1rem;
   margin: 0;
 }
@@ -71,4 +71,44 @@ ul li {
 
 .feature {
   margin-bottom: 3rem;
+}
+
+.feature:last-child {
+  margin-bottom: 0rem !important;
+}
+
+.price {
+  padding: 1rem 0;
+  margin: auto;
+  box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
+  width: 60%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+#economic {
+  border: 4px solid #453011;
+}
+
+footer {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #ffffff !important;
+  font-style: italic;
+}
+
+.separator {
+  margin-bottom: 2rem !important;
+  margin: auto;
+  content: "";
+  width: 70%;
+  height: 1px;
+  background-color: white;
+}
+
+svg {
+  margin-bottom: 1rem;
 }
