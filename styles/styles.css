@@ -6,7 +6,7 @@ body {
   background-image: url(/images/noise.png);
   background-image: url(/images/texture.png);
   text-align: center;
-  color: white !important;
+  color: #e3e2d5 !important;
   font-family: "Playfair Display", serif !important;
 }
 
@@ -96,7 +96,7 @@ footer {
 }
 
 a {
-  color: #ffffff !important;
+  color: #e3e2d5 !important;
   font-style: italic;
 }
 
@@ -106,9 +106,31 @@ a {
   content: "";
   width: 70%;
   height: 1px;
-  background-color: white;
+  background-color: #e3e2d5;
 }
 
 svg {
   margin-bottom: 1rem;
+}
+
+#close-votaciones,
+#close-envio {
+  font-weight: 600;
+  margin: auto;
+  width: 60%;
+  color: #453011;
+  background-color: #e3e2d5;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 10rem;
+}
+
+#envio {
+  padding: 0.1rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 2;
+  background-color: white;
+  border-radius: 30rem;
 }
