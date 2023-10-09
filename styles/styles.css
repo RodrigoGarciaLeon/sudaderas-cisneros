@@ -85,7 +85,6 @@ ul li {
   width: 60%;
   margin-bottom: 1rem;
   border-radius: 1rem;
-  backdrop-filter: blur(10px);
 }
 
 #economic {
